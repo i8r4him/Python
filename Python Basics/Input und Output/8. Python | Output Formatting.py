@@ -3,7 +3,7 @@
 # fancier output
 
 # print integer and float value
-print("Geek : %2d, Portal : %5f" % (1, 05.34))
+print("Geek : %2d, Portal : %5.2f" % (1, 05.333))
 
 # print integer value
 print("Total students : %3d, Boys : %2d" % (240, 120))
@@ -89,4 +89,3 @@ print (cstr.ljust(40, '-'))
 # with "-" padding
 print ("The right aligned string is : ")
 print (cstr.rjust(40, '-'))
-
