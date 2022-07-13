@@ -1,6 +1,9 @@
 # Python programm shwoing
 # a use of input ()
 
+from cgitb import text
+
+
 val = input("Enter your value: ")
 print(val)
 
